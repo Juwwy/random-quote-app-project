@@ -14,7 +14,7 @@ const author = document.querySelector("#author")
 const btn = document.querySelector("#btn");
 
 btn.addEventListener("click", runThis);
-
+setInterval(runThis, 5000)
 
 function runThis(){
     let randomQuoteIndex = Math.floor(Math.random() * quoteMeArr.length);
