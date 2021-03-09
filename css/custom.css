@@ -1,0 +1,50 @@
+/* {
+    /* color: rgb(127, 45, 126);
+    color: rgb(168, 44, 44);
+    color: rgb(173, 255, 47);
+    color: rgb(138, 43, 226);
+    color: rgb(216, 112, 147); */
+/* } */ 
+
+body{
+    background-color: rgb(54, 172, 54);
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.main{
+    padding: 25px;
+}
+.thisMe{
+    padding: 30px;
+}
+
+.quote-body{
+    background-color: bisque;
+    padding: 15px;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 6px 6px 4px 0;
+    transition: transform 0.3s;
+}
+
+.quote-body:hover{
+    transform: translateY(10px);
+}
+
+.quote-body:hover{
+    background-color: #fff;
+    color: black
+}
+
+.quote-point{
+    font-size: 25px;
+}
+button:hover{
+    transform: scale(0.8);
+}
+
+.quote-point:hover, .author:hover{
+    transform: scale(1.1);
+}
